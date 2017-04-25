@@ -1,0 +1,50 @@
+body {
+  background-color: #00A6ED;
+  box-sizing: border-box;
+}
+
+.headline {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 39px;
+  text-align: left;
+  color: #fff;
+}
+
+.facts {
+  list-style: none;
+}
+
+.facts li {
+       color: #fff;
+       position: relative;
+       border-radius:  0em 2px 1em 1em;
+       font-size: 1.2em;
+       font-family: 'Palanguin Dark', sans-serif;
+   }
+
+.profile-image {
+  margin-top: -150px;
+  border-radius: 50%;
+  float: right;
+}
+
+.thumbnail {
+  border-radius: 4px;
+  padding-top: 9px;
+  margin-bottom: -9px;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .profile-image {
+    margin-top: -200px;
+    border-radius: 50%;
+    float: right;
+  }
+
+}
