@@ -56,6 +56,13 @@
   border-style: solid;
 }
 
+.timeline ul li div .img-stock {
+  position: relative;
+  left: 80px;
+  width: 60%;
+
+}
+
 .timeline ul li:nth-child(odd) div {
   left: 45px;
 }
@@ -74,6 +81,10 @@
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #fff;
+}
+
+.timeline ul li div .info {
+  font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 900px) {
