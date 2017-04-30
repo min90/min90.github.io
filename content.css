@@ -12,6 +12,19 @@ body {
   color: #fff;
 }
 
+.contact {
+
+}
+
+.contact-info {
+  padding-top: 22px;
+  padding-right: 5px;
+  float: left;
+  font-size: 1.0em;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
 .facts {
   list-style: none;
 }
@@ -19,10 +32,10 @@ body {
 .facts li {
        color: #fff;
        position: relative;
-       border-radius:  0em 2px 1em 1em;
+       border-radius: 0em 2px 1em 1em;
        font-size: 1.2em;
        font-family: 'Raleway', sans-serif;
-   }
+}
 
 .profile-image {
   margin-top: -150px;
@@ -42,6 +55,11 @@ body {
     transform: scale(1.2);
 }
 
+.skills .info-headline {
+  padding-left: 25px;
+  font-size: 15px;
+}
+
 .skills {
   padding-top: 20px;
 }
@@ -51,6 +69,7 @@ body {
   position: relative;
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
